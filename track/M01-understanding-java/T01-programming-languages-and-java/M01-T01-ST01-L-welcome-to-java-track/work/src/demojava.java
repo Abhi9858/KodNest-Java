@@ -3,7 +3,7 @@ public class demojava {
     public static void main(String[] args) {
 
         String customerName = "Rahul";
-        int units = 350;
+        int units = 150;
         double bill = 0;
         double surcharge = 0;
         double totalBill = 0;
@@ -20,8 +20,6 @@ public class demojava {
 
         if (bill > 1000) {
             surcharge = bill * 5 / 100;
-        } else {
-            surcharge = 0;
         }
 
         totalBill = bill + surcharge;
