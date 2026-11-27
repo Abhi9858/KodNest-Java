@@ -1,0 +1,8 @@
+public class bzdjfbsdj {
+    public static void main(String[] args) {
+        int num = -10;
+        String res = (num < 0) ? "POSITIVE" : "NEGATIVE";
+        System.out.println(res);
+    }
+
+}
